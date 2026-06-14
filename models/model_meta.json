@@ -1,0 +1,74 @@
+{
+  "model_name": "Random Forest",
+
+  "rf_accuracy": 1.0,
+  "svm_accuracy": 0.9967,
+
+  "feature_names": [
+    "MFCC_1",
+    "MFCC_2",
+    "MFCC_3",
+    "MFCC_4",
+    "MFCC_5",
+    "MFCC_6",
+    "MFCC_7",
+    "MFCC_8",
+    "MFCC_9",
+    "MFCC_10",
+    "MFCC_11",
+    "MFCC_12",
+    "MFCC_13",
+    "Jitter",
+    "Shimmer",
+    "HNR"
+  ],
+
+  "n_features": 16,
+  "n_samples": 300,
+
+  "metrics": {
+    "Random Forest": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0
+      }
+    },
+    "SVM (RBF)": {
+      "accuracy": {
+        "mean": 0.9967,
+        "std": 0.0067
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "recall": {
+        "mean": 0.9933,
+        "std": 0.0133
+      },
+      "f1": {
+        "mean": 0.9966,
+        "std": 0.0068
+      }
+    }
+  },
+
+  "confusion_matrix": {
+    "tn": 140,
+    "fp": 0,
+    "fn": 1,
+    "tp": 159
+  }
+}
